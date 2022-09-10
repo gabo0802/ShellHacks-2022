@@ -1,12 +1,16 @@
 * {
-  /*Capital One Colors:
-        Blue: #004879 
-        Red: #D22E1E
-  */
-
-  background-color: #004879; 
-   
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --colorCapBlue: #004879;
+  --colorCapRed: #D22E1E;
 }
