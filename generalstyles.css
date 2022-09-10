@@ -124,13 +124,13 @@ main {
   border-radius: 5%;
   padding: 20px; 
   position: absolute;
-  height: 55%;
-  width: 20%;
+  height: 52%;
+  width: 24%;
   right: 15%;
 }
 
 .welcome-box > h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 15px;
 
 }
