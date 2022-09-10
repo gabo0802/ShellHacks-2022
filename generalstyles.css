@@ -123,7 +123,20 @@ main {
   opacity: none;
   border-radius: 5%;
   padding: 20px; 
-  position: relative;
-  height: 50%;
-  width: 25%;
+  position: absolute;
+  height: 55%;
+  width: 20%;
+  right: 15%;
+}
+
+.welcome-box > h1 {
+  font-size: 3rem;
+  padding: 15px;
+
+}
+
+.welcome-box p, .welcome-box ul > li {
+  font-size: 1.5em;
+  padding: 5px;
+  margin: auto 10%;
 }
