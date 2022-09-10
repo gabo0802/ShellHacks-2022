@@ -23,6 +23,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  max-height: 75px;
   background: white;
   border-bottom: solid 1px lightgray;
   z-index: 10;
@@ -83,6 +84,8 @@ li > a {
   text-decoration: none;
 }
 
-body {
+
+main {
   color: black;
+  margin-top: 75px;
 }
