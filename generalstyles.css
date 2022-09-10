@@ -14,3 +14,14 @@ html {
   --colorCapBlue: #004879;
   --colorCapRed: #D22E1E;
 }
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background:  var(--colorCapBlue);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
