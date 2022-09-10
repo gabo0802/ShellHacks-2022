@@ -140,3 +140,31 @@ main {
   padding: 5px;
   margin: auto 10%;
 }
+
+/* Source for the scrolling container: https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6  */
+.sub-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sub-tile {
+  flex: 0 0 auto;
+}
+
+.sub-tile > img {
+
+}
+.sub-tile > .sub-name {
+
+}
+.sub-tile > .sub-lastused {
+
+}
+.sub-tile > .sub-billingperiod {
+
+}
+.sub-tile > .sub-cost {
+
+}
