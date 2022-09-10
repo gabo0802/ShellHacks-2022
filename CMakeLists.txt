@@ -8,3 +8,4 @@ include_directories(.)
 add_executable(ShellHacks_2022
         main.cpp
         main.h)
+
