@@ -25,3 +25,8 @@ header {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
+
+header > img {
+  max-height: 50px;
+  max-width: 50px;
+}
