@@ -117,3 +117,13 @@ main {
   opacity: 0.9;
 }
 
+.welcome-box {
+  background: white;
+  text-align: center;
+  opacity: none;
+  border-radius: 5%;
+  padding: 20px; 
+  position: relative;
+  height: 50%;
+  width: 25%;
+}
