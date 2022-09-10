@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Optimist, Helvetica Neue,Helvetica,Arial,sans-serif;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -15,6 +16,7 @@ html {
   --colorCapBlue: #004879;
   --colorCapRed: #D22E1E;
   --colorGray: rgb(75, 75, 75);
+  --background-image: url(https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/qa-tien-subscription.jpg?itok=zGQJeKxA);
 }
 
 header {
@@ -88,4 +90,29 @@ li > a {
 main {
   color: black;
   margin-top: 75px;
+}
+
+.welcome-section {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  color: var(--colorA);
+  border-bottom: solid var(--colorB) 10px;
+}
+
+.welcome-section::before {
+  content: "";
+  background: var(--background-image);
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.9;
 }
