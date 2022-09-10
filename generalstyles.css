@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 10px;
   font-family: Poppins, sans-serif;
   scroll-behavior: smooth;
 }
@@ -22,12 +22,12 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background:  var(--colorCapBlue);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
+  background:  white;
+  border-bottom: solid 2px var(--colorCapBlue);
+    z-index: 10;
 }
 
 header > img {
-  max-height: 50px;
-  max-width: 50px;
+  max-height: 75px;
+  max-width: 100px;
 }
