@@ -148,6 +148,7 @@ main {
 }
 
 .orderby > h2 {
+  padding-top: 4vw;
   font-size: 1.75em;
   display: inline-block;
   padding-bottom: 5px;
@@ -302,4 +303,17 @@ main {
 footer {
   height: 5vh;
   background-color: var(--color-LGray);
+}
+
+.footer-stuff {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  padding-top: 15px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.footer-stuff {
+  
 }
