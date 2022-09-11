@@ -1,0 +1,67 @@
+.manager {
+  height: 50vh;
+}
+
+.manager {
+  border-top: solid 2px var(--colorGray);
+  content: "";
+  background: url(https://ecm.capitalone.com/WCM/homepage/testing/photos/hero/bank/1030239-07192022-mabtest-mech-b1.a-desktop-2b-2/desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.sub-manager {
+  background: white;
+  text-align: center;
+  border-radius: 5%;
+  padding: 20px; 
+  margin-left: 20%;
+  margin-top: 4%;
+  height: 70%;
+  width: 20%;
+  overflow:hidden;
+}
+
+.sub-manager h2 {
+  font-size: 2.5rem;
+  padding: 15px;
+}
+.sub-manager > p, .sub-manager > ol > li {
+  font-size: 0.8vw;
+  text-align: left;
+  padding: 3px;
+  margin: auto 10%;
+}
+
+.sub-manager > button {
+  padding: 5px;
+  color: white;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+#cancel{
+  background-color: var(--colorCapRed);
+  border: solid 2px var(--colorCapRed);
+  margin-right: 5px;
+}
+
+#renew{
+  background-color: var(--colorCapBlue);
+  border: solid 2px var(--colorCapBlue);
+  margin-left: 5px;
+}
+
+#cancel:hover {
+  background-color: rgb(235, 83, 72);
+}
+#cancel:active {
+  border: solid 2px rgb(235, 83, 72);
+}
+#renew:hover {
+  background-color: rgb(4, 141, 187);
+}
+#renew:active {
+  border: solid 2px rgb(4, 141, 187);
+}
