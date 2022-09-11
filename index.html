@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="generalstyles.css">
     <title>Capital One Subscription Tracker</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-images-1.medium.com/max/1200/1*opskh0M-0XMqzO-l7SOX8A.png">
     <!--Icon Library,  credit to https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Stuff from the Capital One Website-->
@@ -43,17 +44,18 @@
       </section>
 
       <section id="subscription-section" class="subscriptions">
-      Order By:
-      <form>
-        <select>
-        <option value = "last_used"> Date Last Used (Oldest)</option>
-        <option value = "last_used"> Date Last Used (Newest)</option>
-        <option value = "price"> Price (Largest)</option>
-        <option value = "price"> Price (Smallest)</option>
-        <option value = "bill_period"> Next Billing Period</option>
-      </select>
-      </form>
-
+        <div class="orderby">
+          <h2>Order By:</h2>
+          <form>
+            <select>
+            <option value = "last_used"> Date Last Used (Oldest)</option>
+            <option value = "last_used"> Date Last Used (Newest)</option>
+            <option value = "price"> Price (Largest)</option>
+            <option value = "price"> Price (Smallest)</option>
+            <option value = "bill_period"> Next Billing Period</option>
+          </select>
+          </form>
+        </div>
         <div class="sub-grid">
           <div class="sub-tile">
             <img src= "https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5..v1582751026.png">
@@ -113,9 +115,19 @@
       </section>
 
       <section id="subscription-manager" class="manager">
-        <button>Cancel Subscription</button>
-        <button>Renew Subscription</button>
+        <div class="sub-manager">
+          <h2>Would You Like to Modify Your Subscriptions?</h2>
+          <p>Here Is How To Cancel Or Renew The Subscriptions.</p>
+          <ol>
+            <li>Select which subscriptions you would like to modify.</li>
+            <li>Click on one of the buttons below to modify the subscriptions.</li>
+          </ol>
+          <button id = "cancel">Cancel Subscription</button>
+          <button id = "renew"> Renew Subscription</button>
+        </div>
+        
       </section>
+
     </main>
 
     <footer>
