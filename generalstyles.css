@@ -235,11 +235,6 @@ main {
   height: 50vh;
 }
 
-footer {
-  height: 5vh;
-  background-color: var(--color-LGray);
-}
-
 .manager {
   border-top: solid 2px var(--colorGray);
   content: "";
@@ -302,4 +297,9 @@ footer {
 }
 #renew:active {
   border: solid 2px rgb(4, 141, 187);
+}
+
+footer {
+  height: 5vh;
+  background-color: var(--color-LGray);
 }
