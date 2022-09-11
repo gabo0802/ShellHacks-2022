@@ -32,12 +32,10 @@ header {
   color: var(--colorGray);
 }
 
-header > h2 {
-  font-size: 3rem;
-  margin: auto 0;
-  font-weight: 300;
-}
 header > img {
+  margin: auto 0;
+}
+header > .logo {
   max-height: 75px;
   max-width: 200px;
 }
@@ -148,7 +146,7 @@ main {
 }
 
 .orderby > h2 {
-  padding-top: 4vw;
+  padding-top: 3vw;
   font-size: 1.75em;
   display: inline-block;
   padding-bottom: 5px;
@@ -314,6 +312,17 @@ footer {
   font-size: 1.5em;
 }
 
-.footer-stuff {
-  
+.footer-stuff a {
+  text-decoration: none;
+  color: black;
+}
+.footer-stuff > .socials > a {
+  margin: 3.5px;
+  font-size: 1.3em;
+}
+.footer-stuff > .links > a {
+  margin: 8px;
+}
+.footer-stuff > .links > a:hover {
+  text-decoration: underline;
 }
