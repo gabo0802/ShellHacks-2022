@@ -23,6 +23,7 @@
 }
 /* Source for the scrolling container: https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6  */
 .sub-grid {
+  padding-top: 2vw;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
